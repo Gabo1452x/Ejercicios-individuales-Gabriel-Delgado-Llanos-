@@ -1,0 +1,54 @@
+entero = "nuemeros"
+
+print(entero)
+
+print(type(entero))
+
+
+
+edad = int(input("Introduce tu edad: "))
+
+print("Tu edad es: " + str(edad))
+
+print(type(edad))
+
+
+
+nombre = "Evert Limber Cuevas Espinoza"
+
+print(nombre[0])
+
+print(nombre[0:7])
+
+print(nombre[20:])
+
+print(nombre[:20])
+
+print(nombre.replace("Evert", "Luis"))
+
+print(len(nombre))
+
+
+
+nombres = ["nombre1", "nombre2", "nombre3"]
+
+print(nombres[1])
+
+print(nombres[0:2])
+
+nombres.insert(3, "nombre4")
+
+nombres.insert(1, "nombre10")
+
+print(nombres)
+
+
+
+edad = {"nombre1": 24, "nombre2": 65, "nombre3": 24}
+
+print(edad)
+
+print(edad["nombre1"])
+
+print(edad.get("nombre10", "No aparece"))
+
